@@ -1,5 +1,7 @@
 function removeFromBackOfNew(arr) {
   // your code here
-arr.pop()
+  let newArr=[];
+  newArr=arr.filter((a,b)=>b!=arr.length-1);
+return newArr
 }
 console.log(removeFromBackOfNew)

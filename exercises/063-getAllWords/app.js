@@ -1,4 +1,6 @@
 function getAllWords(str) {
-    // your code here
-    
+   let newWord=[];
+   newWord=str.split(" ");
+    return newWord
 }
+console.log(getAllWords)
