@@ -4,6 +4,16 @@ let obj = {
 
 function getOddElementsAtProperty(obj, key) {
     // your code here
+  if(!Array.isArray(obj[key]|| !obj[key])|| obj[key].length==0){
+    return []
+  }
+  let arr=[];
+  obj[key].forEach(e=>{
+    if(e%2!=0){
+      arr.push(e)
+    }
+  })
+  return arr
 }
 
 let output = getOddElementsAtProperty(obj, 'key');

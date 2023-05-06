@@ -1,5 +1,10 @@
 function computeSummationToN(n) {
   // your code here
+  let suma=0;
+  for(let i=1;i<=n;i++){
+      suma=suma +i;
+    }
+  return suma
   
 }
 
